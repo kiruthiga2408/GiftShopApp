@@ -1,6 +1,7 @@
 package com.kveg.giftshop.app.dao;
 
 import java.sql.Connection;
+
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -11,6 +12,8 @@ import java.util.List;
 import com.kveg.giftshop.exception.DBException;
 import com.kveg_giftshop_app.Register;
 import com.kveg_giftshop_app.dao.RegisterDAO;
+import com.mysql.cj.log.Log;
+
 
 public class RegisterDAOImpl implements RegisterDAO {
 
@@ -52,7 +55,7 @@ public class RegisterDAOImpl implements RegisterDAO {
 
 	}
 
-	public List<reg> findAll() throws DBException {
+	public List<reg> findAll() {
 
 		List<reg> regList = new ArrayList<reg>();
 

@@ -31,7 +31,7 @@ import com.kveg_giftshop_app.dao.RegisterDAO;
 			
 			System.out.println(reg);
 			
-			RegisterDAO regDAO = new RegisterDAOImpl();
+			RegisterDAO reg = new RegisterDAOImpl();
 			RegisterDAO.register(reg);
 		}
 

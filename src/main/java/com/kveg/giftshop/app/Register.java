@@ -1,12 +1,13 @@
-package com.kveg_giftshop_app;
+package com.kveg.giftshop.app;
 
 public class Register {
-
-		public String name;
-		public String emailId;
-		public String createPassword;
-		public String confirmPassword;
-		public String contactNumber;
+	
+    
+		private String name;
+		private String emailId;
+		private String createPassword;
+		private String confirmPassword;
+		private String contactNumber;
 
 		public String getName() {
 			return name;
@@ -48,12 +49,7 @@ public class Register {
 			this.contactNumber = contactNumber;
 		}
 
-		@Override
-		public String toString() {
-			return "Register [name=" + name + ", emailId=" + emailId + ", createPassword=" + createPassword
-					+ ", confirmPassword=" + confirmPassword + ", contactNumber=" + contactNumber + "]";
-		}
-
+		
 		
 		
 	}

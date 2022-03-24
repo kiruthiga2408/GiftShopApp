@@ -2,7 +2,7 @@ package com.kveg.giftshop.validate;
 import com.kveg_giftshop_app.Register;
 
 public class Validator {
-	 public static void validateRegisterDetails(Register reg)  throws Exception{
+	 public static void validateRegisterDetails(Register reg)throws Exception{
 		 if(reg.getName()==null) {
 		 throw new Exception("Invalid name");
 	    }

@@ -11,4 +11,6 @@ public interface RegisterDAO {
 		
 	}
 
+	List<Register> findAll();
+
 }
